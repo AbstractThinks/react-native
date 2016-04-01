@@ -28,9 +28,6 @@
     </pre>
     
     <a href="https://segmentfault.com/a/1190000003915315">参考1</a>
-    <a href="http://www.liaohuqiu.net/cn/posts/react-native-android-package/">参考2</a>
-    <a href="http://react-china.org/t/react-native-android-dev-server/2653">参考3</a>
-    <a href="http://www.csdn.net/article/2015-09-30/2825835-react-native-2">参考4</a>
     </li>
     <li>
         生成签名apk <a href="https://facebook.github.io/react-native/docs/signed-apk-android.html#content">参考</a>
