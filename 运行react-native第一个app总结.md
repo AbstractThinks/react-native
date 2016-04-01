@@ -17,20 +17,20 @@
 
 <ul>
     <li>
-        <pre>
-        在android开发中，js代码导成资源不会自动去将js文件打包成index.android.bundle并放到项目android/app/src/main/assets/目录
-        
-        1.在创建android/app/src/main目录下创建assets文件夹
-        
-        2.通过命令
-        curl "http://localhost:8081/index.android.bundle?platform=android" -o "android/app/src/main/assets/index.android.bundle"
-        在assets文件夹下生成index.android.bundle文件
-        </pre>
-        
-        <a href="https://segmentfault.com/a/1190000003915315">参考1</a>
-        <a href="http://www.liaohuqiu.net/cn/posts/react-native-android-package/">参考2</a>
-        <a href="http://react-china.org/t/react-native-android-dev-server/2653">参考3</a>
-        <a href="http://www.csdn.net/article/2015-09-30/2825835-react-native-2">参考4</a>
+    <pre>
+    在android开发中，js代码导成资源不会自动去将js文件打包成index.android.bundle并放到项目android/app/src/main/assets/目录
+    
+    1.在创建android/app/src/main目录下创建assets文件夹
+    
+    2.通过命令
+    <b>curl "http://localhost:8081/index.android.bundle?platform=android" -o "android/app/src/main/assets/index.android.bundle"</b>
+    在assets文件夹下生成index.android.bundle文件
+    </pre>
+    
+    <a href="https://segmentfault.com/a/1190000003915315">参考1</a>
+    <a href="http://www.liaohuqiu.net/cn/posts/react-native-android-package/">参考2</a>
+    <a href="http://react-china.org/t/react-native-android-dev-server/2653">参考3</a>
+    <a href="http://www.csdn.net/article/2015-09-30/2825835-react-native-2">参考4</a>
     </li>
     <li>
         生成签名apk <a href="https://facebook.github.io/react-native/docs/signed-apk-android.html#content">参考</a>
