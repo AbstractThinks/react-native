@@ -2,7 +2,7 @@
 
 1.android sdk找不到问题
 
-    在项目AwesomeProject/android文件夹下添加local.properties(内容<b>sdk.dir = android-sdk-linux路径</b>)
+    在项目AwesomeProject/android文件夹下添加local.properties(内容sdk.dir = android-sdk-linux路径)
 
 2.在AwesomeProject/目录想运行react-native start启动服务
 
